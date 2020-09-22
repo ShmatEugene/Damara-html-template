@@ -1,0 +1,467 @@
+/*
+
+Template: Damara - Portfolio Template
+Author: ShmatThemes
+Version: 1.0
+Design and Developed by: ShmatThemes
+
+NOTE: This file contains the styling for responsive Template.
+
+*/
+
+
+/*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+
+/* Displays/Screens (e.g. 24" WS @ 1920x1080) -------------- */
+
+@media(max-width:1200px) {
+    .navigation {
+        font-size: 30px;
+    }
+    .navigation ul li i {
+        font-size: 24px;
+    }
+    .time-line-card-block:after {
+        left: 60px;
+    }
+    .time-line-item-second-line .time-line-card-block:after {
+        left: 380px;
+    }
+    .time-line-card {
+        padding-right: 40px;
+    }
+    .time-line-item:before {
+        margin-top: 134px;
+    }
+    .au-intro-text-block-bg {
+        height: auto;
+    }
+    .au-intro-text-block .testimonial-block-add:after {
+        margin-left: 338px;
+    }
+    .services-add-set .testimonial-block-add:after {
+        left: 485px;
+    }
+    #map {
+        width: 50%;
+    }
+}
+
+@media(max-height: 770px) {
+    .contacts-block {
+        margin-top: 20px
+    }
+    #map {
+        height: 140%;
+    }
+}
+
+@media(max-width:992px) {
+    .navigation {
+        font-size: 24px;
+    }
+    .navigation ul li i {
+        font-size: 20px;
+    }
+    .navigation .sub-menu li a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .intro-bg {
+        height: 400px;
+    }
+    .introducing {
+        margin-top: 40px;
+    }
+    .tablet-intro {
+        display: block;
+    }
+    .inro-text-block {
+        top: 0;
+    }
+    .intro-bg .inro-text-block {
+        display: none;
+    }
+    .tablet-intro .inro-text-block:before {
+        content: none;
+    }
+    .tablet-intro .inro-text-block {
+        width: 100%;
+    }
+    .mask-b:before {
+        height: 400px;
+    }
+    .sh-slider-dots {
+        left: 0;
+        top: 15px;
+    }
+    .testimonial-img {
+        width: 140px !important;
+        margin-top: 32px;
+    }
+    .au-intro-text-block .testimonial-block-add {
+        display: none;
+    }
+    .au-intro-text-block-bg {
+        width: 120%;
+        margin-left: -20%;
+    }
+    .team-member-card {
+        width: 48%;
+    }
+    .team-member-img-modal {
+        width: 250px;
+    }
+    .team-member-text {
+        padding-right: 30px;
+        height: 80vh;
+    }
+    .services-add-set .testimonial-block-add:after {
+        left: 375px;
+    }
+    .work-tab-img {
+        width: 100px;
+    }
+    .work-tab-img-2 {
+        width: 100px;
+    }
+    .contacts-text-block {
+        width: 300px;
+    }
+    .contacts-block .testimonial-block-add:after {
+        margin-left: 219px
+    }
+    .time-line-card-block:after {
+        left: 48px;
+    }
+    .time-line-item-second-line .time-line-card-block:after {
+        left: 272px;
+    }
+    .time-line-item:before {
+        margin-top: 160px;
+    }
+}
+
+@media(max-width:768px) {
+    .navigation ul {
+        display: block;
+        width: 290px;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigation {
+        font-size: 30px;
+        line-height: 40px;
+        position: absolute;
+        margin-top: 40vh;
+    }
+    .navigation .sub-menu {
+        margin-top: -15px;
+        width: 100%;
+    }
+    .navigation .sub-menu li {
+        line-height: 15px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .navigation .sub-menu li:last-child {
+        margin-bottom: 10px;
+    }
+    .navigation .sub-menu li a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .navigation .sub-menu {
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        height: 0;
+        opacity: 0;
+    }
+    .show-sub {
+        display: block;
+        text-align: center;
+        opacity: 1;
+        height: 100%;
+    }
+    .chevron-rotate {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+        padding-right: 7px;
+        padding-left: 0;
+    }
+    .menu-block .align-items-center {
+        align-items: flex-start !important;
+    }
+    .achievements-block {
+        height: auto;
+    }
+    .achievements-block-row {
+        height: auto;
+    }
+    .m-second-line-skills {
+        padding-left: 15px;
+    }
+    .testimonial-block {
+        height: auto;
+    }
+    .testimonial-img {
+        width: 100px !important;
+    }
+    .footer-item:nth-child(2) {
+        margin-left: 0px;
+    }
+    .au-inro-header-text-block {
+        width: 460px;
+    }
+    .au-intriducing-block .d-flex {
+        flex-wrap: wrap;
+    }
+    .au-intro-img-block {
+        width: 100% !important;
+    }
+    .au-intro-text-block {
+        width: 100% !important;
+    }
+    .au-intro-text-block-bg {
+        margin-left: 0;
+        width: 100%;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .team-member-img-modal {
+        width: 210px;
+    }
+    .service-item {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .services-add-set .testimonial-block-add:after {
+        left: 516px;
+    }
+    .work-tab-img {
+        width: 70px;
+    }
+    .work-tab-img-2 {
+        width: 70px;
+    }
+    .work-process-title {
+        font-size: 20px;
+    }
+    .price-card {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .portfolio-item-short-info-text {
+        display: none;
+    }
+    .m-portfolio-order {
+        order: -1;
+        margin-bottom: 30px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .portfolio-item-modal-c {
+        flex-wrap: wrap;
+    }
+    .m-portfolio-order-2 {
+        width: 100%;
+        padding-right: 0;
+    }
+    .portfolio-scroll-block {
+        height: 40vh;
+    }
+    .contacts-text-block {
+        margin-left: 10px;
+    }
+    .contacts-block .testimonial-block-add:after {
+        margin-left: 186px;
+    }
+    .time-line-item:before {
+        left: 0;
+        margin-left: 30px;
+    }
+    .time-line-card-block:after {
+        content: none;
+    }
+    .time-line-item-second-line .order-first {
+        order: 2;
+    }
+    .time-line-year {
+        padding: 0;
+        text-align: left;
+        padding-left: 60px;
+        position: relative;
+    }
+    .time-line-year:after {
+        position: absolute;
+        left: 0;
+        top: 35px;
+    }
+    .time-line-item-second-line .time-line-year {
+        text-align: left;
+        padding-left: 60px;
+    }
+    .time-line-item-second-line .time-line-year:after {
+        left: 0;
+    }
+    .time-line-item-second-line .time-line-card {
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+    .time-line-item:before {
+        margin-top: 90px;
+    }
+    .time-line-item:first-child:before {
+        top: 0;
+        margin-top: 90px;
+    }
+    .time-line-card {
+        padding: 20px 15px 20px 15px;
+    }
+    .time-line-item:last-child:before {
+        content: none;
+    }
+}
+
+@media(max-width: 680px) {
+    #map {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .contacts-text-block {
+        width: 270px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .contacts-block .testimonial-block-add:after {
+        margin-left: 154px;
+    }
+    .contact-header #nav-icon3 span {
+        background: #01474f;
+    }
+}
+
+
+@media(max-width: 576px) {
+    h1 { font-size: 40px; font-style: normal; line-height: 50px; }
+    h2 { font-size: 30px; font-style: normal; line-height: 35px; }
+    h3 { font-size: 28px; font-style: normal; line-height: 30px; }
+    .navbar-brand {
+        padding-left: 20px;
+    }
+    .burger {
+        padding-right: 20px;
+    }
+    .m-d-none {
+        display: none;
+    }
+    .testimonial-content {
+        flex-wrap: wrap;
+    }
+    .testimonial-block {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .testimonial-text {
+        padding-left: 0;
+    }
+    .testimonial-img {
+        width: 150px !important;
+    }
+    .footer-item {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .m-footer-pad {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .footer-item {
+        margin-top: 20px;
+    }
+    .au-inro-header-text-block {
+        width: 270px;
+    }
+    .about-us-bg {
+        height: 300px;
+    }
+    .au-inro-header-text-block {
+        display: none;
+    }
+    .m-intro-header {
+        display: block;
+        position: relative;
+        bottom: 0;
+        margin-top: 40px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .team-member-card {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .team-member-img-overlay {
+        opacity: 1;
+    }
+    .team-member-img-block-modal {
+        display: none;
+    }
+    .team-member-text {
+        width: 100%;
+        height: 70vh;
+        margin-top: 15vh;
+        padding-right: 0;
+    }
+    .close-modal {
+        padding: 15px;
+    }
+    .services-add-set .testimonial-block-add {
+        display: none;
+    }
+    .service-item {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-item .close-modal {
+        padding: 40px;
+        position: relative;
+        left: 30px;
+    }
+    .sh-pagination ul li {
+            padding: 0 3px;
+    }
+}
+
+@media(max-width: 330px) {
+    .work-process-list ul li a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+ @media all and (-ms-high-contrast:none) {
+     *::-ms-backdrop, .mask-text-b:before { background: none; } /* IE11 */
+     *::-ms-backdrop, .testimonial-text { padding-left: 160px; } /* IE11 */
+}
